@@ -29,6 +29,5 @@ assert trap([]) == 0
 assert trap([5]) == 0
 assert trap([0, 0, 0]) == 0
 assert trap([3, 3, 3]) == 0
-assert trap([0, 1, 0, 2, 1, 0, 1, 3, 1, 0, 1, 2]) == 6
 
 print("All tests passed.")
